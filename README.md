@@ -52,10 +52,13 @@ This project is intended for educational purposes and for collecting publicly av
 ## Output Screenshots
 
 ### Step 1
-![Step 1](output_preview1.png)
+![Step 1](<img width="1271" height="666" alt="output_preview1 png" src="https://github.com/user-attachments/assets/485cafef-2431-4afb-968f-8c806418873d" />
+)
 
 ### Step 2
-![Step 2](output_preview2.png)
+![Step 2](<img width="1244" height="647" alt="output_preview2 png" src="https://github.com/user-attachments/assets/f4ea1a46-f281-4f66-9c23-98e2dab63b19" />
+)
 
 ### Step 3
-![Step 3](output_preview3.png)
+![Step 3](<img width="1243" height="613" alt="output_preview3 png" src="https://github.com/user-attachments/assets/78a8c86d-0af8-4b57-8110-56a1678ffdc8" />
+)
