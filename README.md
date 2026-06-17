@@ -1,64 +1,65 @@
-Google Maps Business Lead Generator
+## 📸 Excel Output Preview
+
+| Preview 1 | Preview 2 | Preview 3 |
+| :--- | :--- | :--- |
+| ![Preview 1](output_preview1.png) | ![Preview 2](output_preview2.png) | ![Preview 3](output_preview3.png) |
+
+# 🚀 Google Maps Business Lead Generator
 
 A Python-based automation tool that collects publicly available local business information from map listings and exports the results into an Excel file.
 
-Features
+---
 
-- Search businesses by keyword and location
-- Collect business names
-- Extract phone numbers
-- Extract addresses
-- Extract ratings
-- Extract website links (when available)
-- Export data to Excel (.xlsx)
+## 📌 Overview
+This project automates the process of collecting local business leads from map listings. It gathers key business information and saves the results into a structured Excel spreadsheet, making it useful for lead generation, market research, and data analysis.
 
-Example Use Case
+## ⚡ Features
+- **Collects business names**
+- **Extracts phone numbers**
+- **Extracts business addresses**
+- **Extracts ratings**
+- **Extracts website links** (when available)
+- **Exports data to Excel (.xlsx)**
+- **Automated data collection using Python**
 
-Input:
+## 🛠 Technologies Used
+- **Python**
+- **Playwright**
+- **Pandas**
+- **OpenPyXL**
 
-- Keyword: Dentist
-- Location: Hyderabad
+## 📊 Sample Output
+The generated Excel file contains:
+| Business Name | Phone Number | Address | Rating | Website |
+| :--- | :--- | :--- | :--- | :--- |
+| ABC Dental Clinic | +91 XXXXX XXXXX | Hyderabad | 4.7 | - |
+| XYZ Dentists | +91 XXXXX XXXXX | Hyderabad | 4.5 | - |
 
-Output:
+## 🚀 Use Case
+- **Input:** Business Type: Dentist | Location: Hyderabad
+- **Output:** 100+ business leads collected.
 
-- 115+ business leads collected
-- Business Name
-- Phone Number
-- Address
-- Rating
-- Website
+## 📥 Installation
+1. **Clone the repository:**
+   git clone [https://github.com/veerabhadrareddy31-lab/google-maps-lead-generator.git](https://github.com/veerabhadrareddy31-lab/google-maps-lead-generator.git)
 
-Technologies Used
+Install dependencies:
+   pip install selenium playwright pandas openpyxl webdriver-manager
+Run the script:
+      python dentist_scraper.py
+📊 Sample Data Structure
+The final output is optimized for CRM or cold outreach workflows:
+Business NamePhone NumberAddressRatingWebsite
+Dental Clinic A+91 XXXXX XXXXXHyderabad4.8www.clinic-a.com
+Dental Clinic B+91 XXXXX XXXXXHyderabad4.6-
+📂 Project Structure:
+google-maps-lead-generator/
+│
+├── dentist_scraper.py      # Main automation script
+├── requirements.txt        # Project dependencies
+├── output_data/            # Folder for generated Excel files
+└── screenshots/            # Visual proof of results
 
-- Python
-- Playwright
-- Pandas
-- OpenPyXL
-
-Output Format
-
-Business Name| Phone Number| Address| Rating| Website
-
-The collected data is automatically saved into an Excel spreadsheet for further analysis and lead generation.
-
-Project Goal
-
-This project helps automate the collection and organization of publicly available business information, reducing manual research time and improving productivity.
-
-Disclaimer
-
-This project is intended for educational purposes and for collecting publicly available information. Users should respect website terms of service and applicable laws when using this tool.
-
-## Output Screenshots
-
-### Step 1
-![Step 1](<img width="1271" height="666" alt="output_preview1 png" src="https://github.com/user-attachments/assets/485cafef-2431-4afb-968f-8c806418873d" />
-)
-
-### Step 2
-![Step 2](<img width="1244" height="647" alt="output_preview2 png" src="https://github.com/user-attachments/assets/f4ea1a46-f281-4f66-9c23-98e2dab63b19" />
-)
-
-### Step 3
-![Step 3](<img width="1243" height="613" alt="output_preview3 png" src="https://github.com/user-attachments/assets/78a8c86d-0af8-4b57-8110-56a1678ffdc8" />
-)
+⚠️ Disclaimer
+This project is for educational purposes only. Ensure compliance with Google's Terms of Service and data privacy policies when scraping publicly available information.
+Author: Veera Bhadra Reddy | GitHub: veerabhadrareddy31-lab
