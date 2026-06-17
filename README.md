@@ -6,27 +6,29 @@
 
 # 🚀 Google Maps Business Lead Generator
 
-A Python-based automation tool that collects publicly available local business information from map listings and exports the results into an Excel file.
+A powerful Python-based automation tool built to scrape local business information from Google Maps listings and export data directly into structured Excel formats.
 
 ---
 
-## 📌 Overview
-This project automates the process of collecting local business leads from map listings. It gathers key business information and saves the results into a structured Excel spreadsheet, making it useful for lead generation, market research, and data analysis.
+## 📌 Project Overview
+Manual research for business leads is time-consuming. This tool streamlines the process by using **Selenium** and **Playwright** to interact with Google Maps, extract key business details, and organize them automatically for lead generation and market analysis.
 
-## ⚡ Features
-- **Collects business names**
-- **Extracts phone numbers**
-- **Extracts business addresses**
-- **Extracts ratings**
-- **Extracts website links** (when available)
-- **Exports data to Excel (.xlsx)**
-- **Automated data collection using Python**
+## ⚡ Technical Features
+- **Advanced Scraping:** Engineered with **Selenium** and **Playwright** for robust interaction with dynamic web elements.
+- **Automated Intelligence:** Efficiently handles infinite scrolling to ensure complete data extraction.
+- **Data Precision:** Captures Business Name, Phone Number, Address, Rating, and Website links.
+- **Data Export:** Seamlessly processes and saves data into professional-grade **Excel (.xlsx)** or **CSV** formats using **Pandas**.
 
-## 🛠 Technologies Used
-- **Python**
-- **Playwright**
-- **Pandas**
-- **OpenPyXL**
+## 🛠 Tech Stack & Dependencies
+- **Core Language:** Python
+- **Automation Frameworks:** Selenium, Playwright
+- **Data Handling:** Pandas, OpenPyXL
+- **Environment:** WebDriver-Manager
+
+## 🚀 Installation & Setup
+1. **Clone the repository:**
+```bash
+git clone [https://github.com/veerabhadrareddy31-lab/google-maps-lead-generator.git](https://github.com/veerabhadrareddy31-lab/google-maps-lead-generator.git)
 
 ## 📊 Sample Output
 The generated Excel file contains:
@@ -40,9 +42,9 @@ The generated Excel file contains:
 - **Output:** 100+ business leads collected.
 
 ## 📥 Installation
-1. **Clone the repository:**
-   git clone [https://github.com/veerabhadrareddy31-lab/google-maps-lead-generator.git](https://github.com/veerabhadrareddy31-lab/google-maps-lead-generator.git)
-
+1. **Clone the repository:**   
+  ```markdown
+git clone https://github.com/veerabhadrareddy31-lab/google-maps-lead-generator.git
 Install dependencies:
    pip install selenium playwright pandas openpyxl webdriver-manager
 Run the script:
