@@ -45,7 +45,6 @@ for result in results:
         try: rating = driver.find_element(By.CSS_SELECTOR, 'div.F7nice span[aria-hidden="true"]').text
         except: rating = "N/A"
 
-        # Email కోసం లాజిక్
         try:
             email = driver.find_element(By.CSS_SELECTOR, 'a[href^="mailto:"]').text
         except:
